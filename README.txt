@@ -1,0 +1,1 @@
+Please add your own 'music.mp3' to this folder before hosting (e.g. Perfect by Ed Sheeran).

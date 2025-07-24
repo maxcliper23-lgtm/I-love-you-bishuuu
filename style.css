@@ -1,0 +1,58 @@
+
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #ffecd2, #fcb69f);
+  color: #333;
+  text-align: center;
+  overflow-x: hidden;
+}
+h1 {
+  color: #e91e63;
+  font-size: 2.5em;
+}
+h2 {
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+.countdown {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 30px auto;
+}
+.countdown div {
+  background: white;
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+.countdown span {
+  font-size: 2em;
+  color: #c2185b;
+}
+.hidden {
+  display: none;
+}
+#love-letter {
+  max-width: 800px;
+  margin: 40px auto;
+  font-size: 1.2em;
+  color: #2c2c2c;
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  text-align: left;
+  line-height: 1.8em;
+  white-space: pre-wrap;
+}
+#particles-js {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
